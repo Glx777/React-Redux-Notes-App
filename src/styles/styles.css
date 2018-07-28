@@ -124,3 +124,10 @@ ul {
   margin-left: 20px;
   margin-bottom: 20px;
 }
+.note {
+  animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

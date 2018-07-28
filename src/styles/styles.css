@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background: #4B0082;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+}
+#header {
+  text-align: center;
+  margin-top: 50px;
+}
+#header h1 {
+  font-size: 56pt;
+  color: #FFA500;
+}
+#noteForm {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#noteForm input, textarea {
+  width: 600px;
+  padding: 15px 10px;
+  font-size: 20pt;
+  margin-top: 15px;
+}
+#noteForm textarea {
+  height: 150px;
+}
+#noteForm button {
+  padding: 10px 15px;
+  background: #FFA500;
+  border: 0;
+  font-size: 32pt;
+  color: #222;
+  margin-top: 20px;
+}
+#noteForm button:hover {
+  background: #E59400;
+  cursor: pointer;
+}
+#line {
+  background: #fff;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0;
+  margin-top: 30px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-radius: 1px;
+}
+#notes {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+#notes .note {
+  background: #98EC03;
+  margin-top: 15px;
+  border: 1px solid #98EC03;
+  border-radius: 5px;
+}
+#notes .upPart {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.upPart .title {
+  color: #222;
+  font-size: 30pt;
+  margin-left: 15px;
+  padding: 12px 0;
+}
+.upPart .rightSideDiv {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: right;
+  margin-right: 6px;
+}
+.upPart .rightSideDiv span {
+  font-size: 16pt;
+  margin-top: 10px;
+}
+.upPart .buttons {
+  margin-top: 6px;
+}
+.upPart .buttons span {
+  color: #222;
+  font-size: 16pt;
+}
+.upPart .buttons span:hover {
+  cursor: pointer;
+}
+.buttons .show {
+  margin-right: 10px;
+}
+.buttons .show:hover {
+  color: #EE82EE !important;
+}
+.buttons .remove:hover {
+  color: #E50000 !important;
+}
+.details .line2 {
+  border-top: 1px solid #222;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.details p {
+  font-size: 16pt;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
